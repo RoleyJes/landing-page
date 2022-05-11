@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5%
+  Percentage of user's browser font-size setting
+  font-size: 62.5%; */
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #151515;
+  overflow-x: hidden;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/* **************************** */
+/* GENERAL REUSABLE COMPONENT */
+/* **************************** */
+
+.grid-reusable {
+  display: grid;
+}
+
+.grid-reusable--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.general-cont {
+  max-width: 120rem;
+  padding: 0 12rem;
+  margin: 0 auto;
+}
+
+.subhead {
+  display: block;
+  color: #ee174b !important;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.heading-primary {
+  color: #151515;
+  /* font-size: 2rem; */
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  line-height: 1.1;
+}
+
+.heading-secondary {
+  color: #151515;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  line-height: 1.2;
+}
+
+/* **************************** */
+/* HELPER CLASSES */
+/* **************************** */
+
+.center-text {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}

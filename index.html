@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- BOOTSTRAP CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- GLIDER CSS only -->
+  <link rel="stylesheet" href="css/glide.core.min.css">
+
+  <!-- PROJECT CSS -->
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+  <link rel="stylesheet" href="css/dark.css" />
+
+  <title>SPACEPEN</title>
+</head>
+
+<body>
+
+  <!-- ************************ HEADER **************************** -->
+  <header class="header-section displaydiv">
+    <navbar class="headerq">
+      <div class="spacepen-logo-cont relative">
+        <a href="#">
+          <img src="img/logo.svg" alt="spacepen logo" class="spacepen-logo" />
+        </a>
+        <a href="#">
+          <img src="img/footer-logos/spacepen.svg" alt="spacepen logo" class="spacepen-dark-logo" />
+        </a>
+      </div>
+
+      <nav class="nav main-nav">
+        <ul class="main-nav-list" id="mainNavList">
+          <li class="nav-li">
+            <a class="main-nav-link " href="#">Home</a>
+          </li>
+          <li class="nav-li ">
+            <a class="main-nav-link" href="#aboutUs">About Us</a>
+          </li>
+          <li class="nav-li ">
+            <div class="solution-dropdown">
+              <div class="solution-icon-flex">
+                <a class="main-nav-link dropdown-nav-link" href="#solutions">Solutions/Products</a>
+                <ion-icon name="chevron-down-outline" class="dropdown-icon"></ion-icon>
+              </div>
+
+              <div class="solution-dropdown-cont hidden">
+                <ion-icon name="caret-up-outline" class="dropdown-top-icon"></ion-icon>
+                <ul class="solution-dropdown-lists grid-reusable">
+                  <li>
+                    <a href="#" class="dropdown-link">SMART eGovernance</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-link">SMART Business Solution</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-link">Payment Solution </a>
+                  </li>
+                  <li><a href="#" class="dropdown-link">Skye Payroll</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class=" nav-li ">
+            <a class="main-nav-link " href="#contactUs">Contact Us</a>
+          </li>
+
+          <li class="nav-li">
+            <a class="main-nav-link nav-blog" href="#blog">Blog</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ******************* MOBILE NAV BAR ************************ -->
+      <button class="btn-mobile-nav">
+        <ion-icon name="menu-outline" class="icon-mobile-nav" id="mobileNavMenu"></ion-icon>
+        <ion-icon name="close-outline" class="icon-mobile-nav" id="mobileNavClose"></ion-icon>
+      </button>
+
+    </navbar>
+
+    <div><img src="img/theme-dark.svg" alt="dark or light theme" class="theme-dark-img" title="Dark Theme" />
+    </div>
+    <di><img src="img/theme-light.svg" alt="dark or light theme" class="theme-light-img" title="Light Theme" />
+    </di>
+
+  </header>
+
+  <!-- ************************ HERO **************************** -->
+  <section class="hero-section">
+    <div class="hi"></div>
+
+    <div class="general-cont grid-reusable hero-grid">
+      <div class="relative hero-heading">
+
+        <img src="img/hero/polygon.svg" alt="yellow polygons" class="hero-polygon absolute" />
+        <span class="hero-subhead">Intuitive IT Solutions</span>
+        <h1 class="heading-primary">
+          Best Solution And
+          Grow Your Business
+          Easier Than Ever
+        </h1>
+        <p class="about-us-text">
+          We blend insights and stategy to create digital products for <br>forward-thinking organisations.
+        </p>
+
+        <div class="hero-action-cont">
+
+          <a class=" hero-call" href="#">Schedule a call</a>
+          <a href="#" class="absolute hero-play-link"><img src="img/hero/play.svg" alt="button to play a video"
+              class="hero-play"></a>
+          <p class="about-us-text hero-watch absolute">Watch Videos</p>
+        </div>
+      </div>
+
+      <div class="relative clue">
+        <img src="img/hero/hero-lady.svg" alt="Lady sitting on a box, holding a laptop excitedly"
+          class="hero-img absolute">
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- ************************ ABOUT US **************************** -->
+  <section class="about-us-section" id="aboutUs">
+    <div class="general-cont about-grid">
+      <div class="about-us-description">
+        <img src="img/circles/circle-pink.svg" alt="pink circle" class="about-us-circle-pink" />
+        <span class="subhead">About Us</span>
+        <h2 class="heading-secondary">
+          Our Unique <br />
+          Value
+        </h2>
+        <p class="about-us-text">
+          We are a team focused on crafting products and solutions for people
+          to work smarter, not harder.
+          <br />
+          Beautifully designed products also help SMEs achieve accelerated
+          productivity and growth with minimum investment.
+        </p>
+      </div>
+
+      <div class="about-us-imgs">
+        <img src="img/circles/circle-green.svg" alt="green circle" class="about-us-circle-green" />
+        <img src="img/circles/circe-blue.svg" alt="blue circle" class="about-us-circle-blue" />
+        <img src="img/circles/circle-yellow.svg" alt="yellow circle" class="about-us-circle-yellow" />
+        <img src="img/circles/circle-pink.svg" alt="pink circle" class="about-us-circle-pink2" />
+
+        <img src="img/faces/face1.svg" alt="" class="about-us-img" />
+        <img src="img/faces/face2.svg" alt="" class="about-us-img" />
+        <img src="img/faces/face3.svg" alt="" class="about-us-img" />
+        <img src="img/faces/face4.svg" alt="" class="about-us-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************ SOLUTION **************************** -->
+  <section class="solution-section center-text" id="solutions">
+    <div class="solution-heading-cont">
+      <h2 class="heading-secondary">Our Solutions</h2>
+      <img src="img/circles/circle-yellow.svg" alt="yellow circle" class="solution-circle-yellow" />
+      <img src="img/circles/circle-green.svg" alt="green circle" class="solution-circle-green" />
+      <img src="img/circles/circle-pink.svg" alt="pink circle" class="solution-circle-pink" />
+    </div>
+    <div class="solution-cont">
+      <div class="solution-card">
+        <img src="img/solutions/computer.svg" alt="a small computer" class="solution-imgs" />
+        <p class="solution-description">SMART eGovernance</p>
+        <p class="solution-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+          nisl libero fermentum at cras euismod.
+        </p>
+
+        <div class="learn-more-cont">
+          <button class="learn-more">
+            Learn More
+            <ion-icon name="arrow-forward-outline" class="learn-more-arrow"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="solution-card">
+        <img src="img/solutions/business.svg" alt="a small computer" class="solution-imgs" />
+
+        <p class="solution-description">
+          SMART <br />
+          Business Solution
+        </p>
+        <p class="solution-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+          nisl libero
+        </p>
+
+        <div class="learn-more-cont">
+          <button class="learn-more">
+            Learn More
+            <ion-icon name="arrow-forward-outline" class="learn-more-arrow"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="solution-card">
+        <img src="img/solutions/payment.svg" alt="hand holding credit cards" class="solution-imgs" />
+        <p class="solution-description">Payment Solution</p>
+        <p class="solution-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+          nisl libero fermentum at cras euismod.
+        </p>
+
+        <div class="learn-more-cont">
+          <button class="learn-more">
+            Learn More
+            <ion-icon name="arrow-forward-outline" class="learn-more-arrow"></ion-icon>
+          </button>
+        </div>
+      </div>
+
+      <div class="solution-card">
+        <img src="img/solutions/skye.svg" alt="an opened envelope with money in it" class="solution-imgs" />
+        <p class="solution-description">Skye Payroll</p>
+        <p class="solution-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+          nisl libero fermentum at cras euismod.
+        </p>
+
+        <div class="learn-more-cont">
+          <button class="learn-more">
+            Learn More
+            <ion-icon name="arrow-forward-outline" class="learn-more-arrow"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************ DO BEST **************************** -->
+  <section class="do-best-section relative">
+    <div>
+      <img src="img/what-we-do-best/coloured-small-circles/pink-circle.svg" alt="coloured circle" class="pink-O">
+      <img src="img/what-we-do-best/coloured-small-circles/green-circle.svg" alt="coloured circle" class="small-green">
+      <img src="img/what-we-do-best/coloured-small-circles/yellow-circle.svg" alt="coloured circle" class="yellow-O">
+      <img src="img/what-we-do-best/coloured-small-circles/yellow-chat-circle.svg" alt="coloured circle"
+        class="yellow-chat-circle">
+      <img src="img/what-we-do-best/coloured-small-circles/blue-circle.svg" alt="coloured circle" class="blue-O">
+      <img src="img/what-we-do-best/coloured-small-circles/purple-circle.svg" alt="coloured circle" class="purple-O">
+      <img src="img/what-we-do-best/coloured-small-circles/last-green-circle.svg" alt="coloured circle"
+        class="big-green">
+    </div>
+    <h2 class="heading-secondary what-we-do-best center-text ">What we do best?</h2>
+    <div class="general-cont do-best-grid grid-reusable grid-reusable--2-cols ">
+
+      <div class="first">
+        <p class="subhead">Service</p>
+        <h1 class="heading-primary our-value">Our Value <br> Proposition</h1>
+      </div>
+
+      <div class="second flex-texts">
+        <span><img src="img/what-we-do-best/app-dev.svg" alt="icon" class="do-best-icon"></span>
+        <h3 class="sds">Application Development</h3>
+        <p class="solution-text st">We engineer digital solutions of any complexity, combining our multidisciplinary
+          tech expertise with industry experience</p>
+        <button class="do-best-learn-more">
+          Learn More
+          <img src="img/what-we-do-best/learn-more-arrow.svg" class="arrow" alt="arrow" </ion-icon>
+        </button>
+      </div>
+
+
+      <div class="third flex-texts">
+        <span><img src="img/what-we-do-best/software-dev-img.svg" alt="icon" class="do-best-icon"></span>
+        <h3 class="sds">Software/ Web Development</h3>
+        <p class="solution-text st">We engineer digital solutions of any complexity, combining
+          our multidisciplinary tech expertise with industry experience.</p>
+        <button class="do-best-learn-more">
+          Learn More
+          <img src="img/what-we-do-best/learn-more-arrow.svg" class="arrow" alt="arrow" </ion-icon>
+        </button>
+      </div>
+
+      <div class="fourth flex-texts">
+        <span><img src="img/what-we-do-best/uiux.svg" alt="icon" class="do-best-icon"></span>
+        <h3 class="sds">Ui/Ux Design</h3>
+        <p class="solution-text st">We engineer digital solutions of any complexity, combining
+          our multidisciplinary tech expertise with industry experience.</p>
+        <button class="do-best-learn-more">
+          Learn More
+          <img src="img/what-we-do-best/learn-more-arrow.svg" class="arrow" alt="arrow" </ion-icon>
+        </button>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <!-- ************************ ACHIEVEMENT **************************** -->
+  <section class="achievement-section relative">
+    <img src="img/what-we-do-best/coloured-small-circles/pink-circle.svg" alt="coloured circle"
+      class="achievement-pink-O">
+    <img src="img/what-we-do-best/coloured-small-circles/green-circle.svg" alt="coloured circle"
+      class="achievement-small-green1">
+    <img src="img/what-we-do-best/coloured-small-circles/green-circle.svg" alt="coloured circle"
+      class="achievement-small-green2">
+
+    <img src="img/what-we-do-best/coloured-small-circles/yellow-chat-circle.svg" alt="coloured circle"
+      class="achievement-yellow-chat-circle">
+
+    <img src="img/what-we-do-best/coloured-small-circles/purple-circle.svg" alt="coloured circle"
+      class="achievement-purple-O">
+    <img src="img/what-we-do-best/coloured-small-circles/last-green-circle.svg" alt="coloured circle"
+      class="achievement-big-green">
+    <div class="center-text ">
+      <span class="subhead">Cold, Hard Data</span>
+      <h4 class="heading-secondary achievement-heading">Our Achievements</h4>
+    </div>
+    <div class="achievement-first-grid grid-reusable">
+      <div class="prog-bar">
+        <div class="progress-bars">
+          <div class="progress progress-bar-vertical">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="height: 50%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="status">
+          <h4 class="num">45+</h4>
+          <p class="solution-text prg-text">Clients <br> Served</p>
+        </div>
+      </div>
+      <div class="prog-bar">
+        <div class="progress-bars">
+          <div class="progress progress-bar-vertical">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="height: 50%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="status">
+          <h4 class="num">6</h4>
+          <p class="solution-text prg-text">Clients from <br> Different countries</p>
+        </div>
+      </div>
+      <div class="prog-bar">
+        <div class="progress-bars">
+          <div class="progress progress-bar-vertical">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="height: 50%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="status">
+          <h4 class="num">0</h4>
+          <p class="solution-text prg-text">Deadlines <br> Missed</p>
+        </div>
+      </div>
+      <div class="prog-bar">
+        <div class="progress-bars">
+          <div class="progress progress-bar-vertical">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="height: 50%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="status">
+          <h4 class="num">40+</h4>
+          <p class="solution-text prg-text">Products <br> Shipped</p>
+        </div>
+      </div>
+      <div class="prog-bar">
+        <div class="progress-bars">
+          <div class="progress progress-bar-vertical">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="height: 50%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="status">
+          <h4 class="num">12</h4>
+          <p class="solution-text prg-text">Finished <br> Design Sprints</p>
+        </div>
+      </div>
+      <div class="prog-bar">
+        <div class="progress-bars">
+          <div class="progress progress-bar-vertical">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="height: 50%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="status">
+          <h4 class="num">4</h4>
+          <p class="solution-text prg-text">Office <br> Upgrades</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="general-cont achievement-second-grid grid-reusable grid-reusable--2-cols">
+      <div>
+        <span class="subhead">Our Ideals</span>
+        <h1 class="heading-primary ">What's important to us?
+        </h1>
+      </div>
+      <div>
+        <h5>We work agile</h5>
+        <p>We work agile, which means we release(part of) the fully
+          functional products as soon as possible, instead of partial release
+          from each discipline. Thus, the team works parallel instaed of one
+          discipline after the other.</p>
+
+        <p>We can do this so we can offer velocity, flexibility and to get results as
+          soon as possible. So your product is up and running very soon in the project!</p>
+
+        <div class="button-flex">
+          <button class="ideal-button"><img src="img/achievement/our-ideal/arrow-backward.svg" class="ideal-bttn1"
+              alt="arrow">
+          </button>
+          <button class="ideal-button1"><img src="img/achievement/our-ideal/arrow-forward.svg" class="ideal-bttn"
+              alt="arrow">
+          </button>
+        </div>
+      </div>
+  </section>
+
+  <!-- ************************ ARTICLE **************************** -->
+  <section class="articles-section" id="blog">
+    <div class="general-cont article-cont">
+      <div class="articles-heading-cont">
+        <span class="subhead">Blog</span>
+        <h2 class="heading-secondary">Our last articles</h2>
+      </div>
+      <div class="articles-grid">
+        <div class="article-left-div">
+          <h4>
+            Identifying, understanding and designing
+            solutions for digital products
+          </h4>
+          <p class="detail">
+            We engineer digital solutions of any complexity, combining our
+            multidisciplinary tech expertise with indistry experience. Owing
+            to the need for industries to adapt and evolve to the ever
+            changing landscape of...
+          </p>
+          <div class="article-green-bottom-grid">
+            <div class="article-left-flex">
+              <img src="img/articles/small-pink.svg" alt="face with cap" />
+              <p>
+                Opeoluwa Ogunmodede <br />
+                <span>Jan 8, 2022</span>
+              </p>
+            </div>
+            <div class="article-right-flex">
+              <a>Previous Article</a>
+              <a>Next Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="article-right-div">
+          <h4>Want to read more articles?</h4>
+          <p>Read more articles on our blog</p>
+          <div class="article-blog-div">
+            <a href="#" class="article-blog">Visit our Blog!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************ REVIEW **************************** -->
+  <section class="review-section">
+    <div class="review-cont relative">
+      <img src="img/circles/circle-yellow.svg" alt="yellow circle" class="review-yellow-circle absolute" />
+      <img src="img/circles/circle-green.svg" alt="green circle" class="review-green-circle absolute" />
+      <img src="img/reviews/circles.svg" alt="small circles of different colors" class="review-circles absolute" />
+      <div class="review-heading-cont">
+        <h2 class="heading-secondary">
+          Check out <br />
+          Recent Reviews
+        </h2>
+        <p class="review-heading-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+          nisl libero <br />
+          fermentum at cras euismod.
+        </p>
+      </div>
+
+      <!-- <div class="glide general-cont center-text">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">content 1</li>
+            <li class="glide__slide">content 2</li>
+            <li class="glide__slide">content 3</li>
+            <li class="glide__slide">content 4</li>
+            <li class="glide__slide">content 5</li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>
+      </div> -->
+
+      <div class="review-grid grid-reusable grid-reusable--2-cols">
+        <div class="review-grid-left relative">
+          <img src="img/reviews/girl-folded-arms.svg" alt="woman smiling with folded arms"
+            class="girl-folded-arms absolute" />
+          <img src="img/reviews/girl-folded-arms.svg" alt="woman smiling with folded arms"
+            class="girl-folded-arms2 absolute" />
+          <img src="img/reviews/guy.svg" alt="man on a red shirt giving a thumbs up and smiling" class="guy absolute" />
+          <img src="img/reviews/girl-glasses.svg" alt="lady with glasses, giving a thumbs up and smiling"
+            class="girl-glasses absolute" />
+          <button class="arrow-white absolute">
+            <ion-icon name="arrow-back-outline" class="review-arrow"></ion-icon>
+          </button>
+          <button class="arrow-green absolute">
+            <ion-icon name="arrow-forward-outline" class="review-arrow"></ion-icon>
+          </button>
+        </div>
+        <div class="review-grid-right">
+          <div>
+            <h3 class="review-name">Blessing Osakwe</h3>
+            <p class="review-job">Business strategist</p>
+          </div>
+          <div>
+            <p class="review-text-desc">Awesome Work!!</p>
+          </div>
+          <div>
+            <p class="review-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
+              molestie massa quisque enim ornare dapibus posuere pellentesque.
+              Posuere amet tempus, mauris non, iaculis vitae. Vulputate
+              consequat convallis consectetur turpis neque lorem gravida.
+              Lacus diam elit id viverra aenean ante nisl vestibulum.
+            </p>
+          </div>
+          <img src="img/reviews/stars.svg" alt="golden stars" class="review-stars" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************ CONTACT US **************************** -->
+  <section class="contact-us-section relative" id="contactUs">
+    <div class="general-cont relative contact-cont">
+      <img src="img/circles/circle-green.svg" alt="green circle" class="contact-absolute contact-green-circle" />
+      <img src="img/circles/circle-pink.svg" alt="pink circle" class="contact-absolute contact-pink-circle" />
+      <img src="img/circles/circle-yellow.svg" alt="yellow circle" class="contact-absolute contact-yellow-circle" />
+      <img src="img/circles/circle-pink.svg" alt="pink circle" class="contact-absolute contact-pink-circle2" />
+      <img src="img/contact-us/square-yellow.svg" alt="yellow square" class="contact-absolute contact-yellow-square" />
+      <span class="subhead center-text">Contact Us</span>
+      <h2 class="heading-secondary center-text">
+        Let's create something <br />
+        awesome together
+      </h2>
+
+      <form action="#" class="contact-form-cont">
+        <div class="form-grid grid-reusable grid-reusable--2-cols">
+          <div>
+            <div class="relative">
+              <label for="name">Your Name</label>
+
+              <span><img src="img/contact-us/profile.svg" alt="a profile" class="contact-us-img" /></span>
+              <input type="text" id="name" placeholder="Opeoluwa Ogunmodede" required />
+            </div>
+
+            <div class="relative">
+              <label for="email">E-Mail</label>
+              <span><img src="img/contact-us/mail.svg" alt="a  closed envelope"
+                  class="contact-us-img contact-mail" /></span>
+              <input type="email" id="email" placeholder="erichjames@gmail.com" required />
+            </div>
+
+            <div class="relative">
+              <label for="phone">Phone</label>
+              <span>
+                <img src="img/contact-us/phone.svg" alt="a mobile phone" class="contact-us-img contact-phone" />
+              </span>
+              <input type="number" id="phone" placeholder="Your number" required />
+            </div>
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="14" placeholder="Your Message" required></textarea>
+          </div>
+        </div>
+
+        <div class="center-text">
+          <button type="submit" class="contact-btn">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ************************ FOOTER **************************** -->
+  <section class="footer-section">
+    <div class="footer-cont">
+      <div class="footer-grid">
+        <div class="f-grid1">
+          <img src="img/footer-logos/spacepen.svg" alt="spacepen logo" />
+          <p>
+            As technology continues to evolve, our commitment will remain the
+            same, helping people do more, learn more and earn more in less
+            time yet with better results.
+          </p>
+        </div>
+        <div class="f-middle-grid">
+          <div class="f-grid2">
+            <h5>NAVIGATE</h5>
+            <ul>
+              <li><a href="#">About Spacepen</a></li>
+              <li><a href="#">Our Code of Conduct</a></li>
+              <li><a href="#">Explore All Products</a></li>
+              <li><a href="#">Reviews and Testimonials</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="f-grid3">
+            <h5>CONTACT</h5>
+            <ul>
+              <li><a href="#">Product Enquiry</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Enquiries and Sponsorship</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="f-grid4">
+          <h5>JOIN OUR COMMUNITY</h5>
+          <form action="#">
+            <div>
+              <label for="emailSubscribe">
+                Subscribe to receive updates, access to exclusive deals, and
+                more.
+              </label>
+              <input class="footer-input" type="email" id="emailSubscribe" placeholder="Enter your email address" />
+            </div>
+            <button type="submit" class="footer-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-logos">
+        <a href="#"><img src="img/footer-logos/twitter.svg" alt="Twiiter logo" class="footer-logo-link" /></a>
+        <a href="#"><img src="img/footer-logos/github.svg" alt="Github logo" /></a>
+        <a href="#"><img src="img/footer-logos/google.svg" alt="Google logo" /></a>
+        <a href="#"><img src="img/footer-logos/reddit.svg" alt="Reddit logo" /></a>
+        <a href="#"><img src="img/footer-logos/linkedin.svg" alt="LinkedIn logo" /></a>
+        <a href="#"><img src="img/footer-logos/slack.svg" alt="Slack logo" /></a>
+      </div>
+
+      <div class="footer-rights-cont">
+        <img src="img/footer-logos/rights.svg" alt="" />
+        <p class="rights">2022 Spacepen - All Rights Reserved</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************ SCRIPTS **************************** -->
+  <!-- ION ICON SCRIPTS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+  <!-- GLIDER SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script>
+    new Glide('.glide').mount()
+  </script>
+
+  <!-- PROJECT SCRIPT -->
+  <script src="script.js"></script>
+</body>
+
+</html>

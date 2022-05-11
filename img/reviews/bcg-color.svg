@@ -1,0 +1,41 @@
+<svg width="1920" height="986" viewBox="0 0 1920 986" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3" filter="url(#filter0_f_56_1230)">
+<circle r="162" transform="matrix(-1 0 0 1 1739 680)" fill="#47AD71"/>
+</g>
+<g opacity="0.4" filter="url(#filter1_f_56_1230)">
+<circle r="106" transform="matrix(-1 0 0 1 1746 352)" fill="#EE174B"/>
+</g>
+<g opacity="0.2" filter="url(#filter2_f_56_1230)">
+<circle r="158" transform="matrix(-1 0 0 1 179 721)" fill="#F1AA0B"/>
+</g>
+<g opacity="0.25" filter="url(#filter3_f_56_1230)">
+<circle r="183" transform="matrix(-1 0 0 1 126 413)" fill="url(#paint0_linear_56_1230)" fill-opacity="0.890196"/>
+</g>
+<defs>
+<filter id="filter0_f_56_1230" x="1194" y="135" width="1090" height="1090" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="191.5" result="effect1_foregroundBlur_56_1230"/>
+</filter>
+<filter id="filter1_f_56_1230" x="1257" y="-137" width="978" height="978" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="191.5" result="effect1_foregroundBlur_56_1230"/>
+</filter>
+<filter id="filter2_f_56_1230" x="-362" y="180" width="1082" height="1082" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="191.5" result="effect1_foregroundBlur_56_1230"/>
+</filter>
+<filter id="filter3_f_56_1230" x="-440" y="-153" width="1132" height="1132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="191.5" result="effect1_foregroundBlur_56_1230"/>
+</filter>
+<linearGradient id="paint0_linear_56_1230" x1="13.6832" y1="303.115" x2="511.986" y2="172.29" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5A8FAF"/>
+<stop offset="0.560784" stop-color="#47AD71"/>
+<stop offset="1" stop-color="#33CC33"/>
+</linearGradient>
+</defs>
+</svg>

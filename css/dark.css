@@ -1,0 +1,122 @@
+/* ************************ GENERAL ****************************  */
+.dark {
+  transition: all 0.5s;
+}
+
+.dark .dropdown-link:link,
+.dark .dropdown-link:visited,
+.dark .hero-section,
+.dark .header-section,
+.dark .solution-section,
+.dark .do-best-section,
+.dark .achievement-section,
+.dark .articles-section,
+.dark .contact-us-section {
+  background-color: #2c2d31;
+}
+
+.dark .about-us-section,
+.dark .review-section,
+.dark .footer-section,
+.dark .contact-form-cont,
+.dark .article-right-div {
+  background-color: #393a3f;
+}
+
+.dark .headerq,
+.dark .main-nav-link,
+.dark .dropdown-link:link,
+.dark .dropdown-link:visited,
+.dark .heading-primary,
+.dark .heading-secondary,
+.dark .about-us-text,
+.dark .solution-text,
+.dark .solution-card,
+.dark .sds,
+.dark .review-name,
+.dark .review-text-desc,
+.dark .form-grid {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* ************************ HEADER ****************************  */
+.dark .dropdown-top-icon {
+  color: #393a3f;
+}
+
+.dark .solution-dropdown-cont {
+  background-color: #393a3f;
+  top: 3.5rem;
+}
+
+.dropdown-link:hover,
+.dropdown-link:active {
+  box-shadow: inset 0 0 0 0.5px rgba(225, 231, 236, 1);
+}
+
+.dark .icon-mobile-nav[name="menu-outline"],
+.dark .icon-mobile-nav[name="close-outline"] {
+  color: #ffffff;
+}
+
+.dark .icon-mobile-nav:hover,
+.dark .icon-mobile-nav:active,
+.dark .icon-mobile-nav[name="close-outline"]:hover,
+.dark .icon-mobile-nav[name="close-outline"]:active {
+  color: rgba(71, 173, 113);
+}
+
+/* ************************ SOLUTION ****************************  */
+.dark .solution-card {
+  background-color: #393a3f;
+  border: 0.1px solid rgba(225, 231, 236, 1);
+}
+
+.dark .solution-card .learn-more {
+  background-color: #2c2d31;
+  color: rgba(255, 255, 255, 1);
+}
+
+.dark .solution-card .learn-more:hover,
+.dark .solution-card .learn-more:active {
+  background: none;
+}
+
+/* ************************ ACHIEVEMENT ****************************  */
+.dark .achievement-section {
+  background-image: none;
+  color: #ffffff;
+}
+
+/* ************************ ARTICLES ****************************  */
+.dark .article-right-div {
+  box-shadow: none;
+  color: #ffffff;
+}
+
+/* ************************ REVIEW ****************************  */
+.dark .review-heading-text,
+.dark .review-job,
+.dark .review-text,
+.dark .achievement-section p {
+  color: rgba(238, 241, 251, 1);
+}
+
+/* ************************ CONTACT ****************************  */
+.dark .form-grid input,
+.dark .form-grid textarea {
+  background-color: #2c2d31;
+  color: #ffffff;
+}
+
+/* ************************ FOOTER ****************************  */
+.footer-grid a:link,
+.footer-grid a:visited {
+  text-decoration: none;
+  color: rgba(238, 241, 251, 1);
+}
+
+.footer-grid a:hover,
+.footer-grid a:active {
+  color: rgba(173, 173, 173, 1);
+}
